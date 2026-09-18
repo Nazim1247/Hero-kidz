@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Teddy Bear",
+    "price": 12.99,
+    "image": "/images/teddy-bear.jpg",
+    "category": "Soft Toy",
+    "description": "A cute and cuddly teddy bear for your little one.",
+    "rating": 4.8
+  },
+  {
+    "name": "Building Blocks Set",
+    "price": 15.99,
+    "image": "/images/building-blocks.jpg",
+    "category": "Educational",
+    "description": "Colorful building blocks to improve creativity and motor skills.",
+    "rating": 4.6
+  },
+  {
+    "name": "RC Car",
+    "price": 29.99,
+    "image": "/images/rc-car.jpg",
+    "category": "Vehicle",
+    "description": "A remote control car for endless fun and adventure.",
+    "rating": 4.5
+  },
+  {
+    "name": "Cute Doll",
+    "price": 19.99,
+    "image": "/images/doll.jpg",
+    "category": "Doll",
+    "description": "A beautiful doll for imaginative play and storytelling.",
+    "rating": 4.7
+  },
+  {
+    "name": "Puzzle Game",
+    "price": 11.99,
+    "image": "/images/puzzle.jpg",
+    "category": "Brain Game",
+    "description": "A fun puzzle game to improve problem-solving skills.",
+    "rating": 4.4
+  },
+  {
+    "name": "Stuffed Elephant",
+    "price": 16.99,
+    "image": "/images/elephant.jpg",
+    "category": "Soft Toy",
+    "description": "A soft and huggable elephant toy for your little one.",
+    "rating": 4.6
+  }
+]
