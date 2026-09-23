@@ -1,9 +1,10 @@
 import Image from "next/image";
 import Link from "next/link";
+import CartButton from "../buttons/CartButton";
 
 const ProductCard = ({ product }) => {
   const { name, price, image, category, description, rating, _id } = product;
-  console.log("IMAGE URL:", image);
+  // console.log("IMAGE URL:", image);
   return (
     <div className="w-full max-w-sm overflow-hidden rounded-2xl bg-white shadow-lg transition duration-300 hover:-translate-y-1 hover:shadow-xl">
 
@@ -47,9 +48,8 @@ const ProductCard = ({ product }) => {
             ${price}
           </span>
 
-          <button className="rounded-lg bg-orange-500 px-4 py-2 font-semibold text-white transition hover:bg-orange-600">
-            Add to Cart
-          </button>
+          <CartButton product={product}></CartButton>
+
           <Link href={`/products/${_id}`} className="btn btn-primary btn-outline">
             View Details
           </Link>
